@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voca - Origin</title>
+</head>
+<style>
+    /* Background styling to mimic a book page */
+    body {
+        background-color: #f4f1ea;
+        /* Soft cream/paper color */
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+    }
+
+    .book-page {
+        background: white;
+        width: 100%;
+        max-width: 800px;
+        padding: 60px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        border: 1px solid #e0ddd5;
+    }
+
+    h1 {
+        font-family: 'Arial', serif;
+        text-align: center;
+        font-weight: normal;
+        font-variant: small-caps;
+        letter-spacing: 2px;
+        margin-bottom: 40px;
+        color: #333;
+    }
+
+    .index-list {
+        font-family: 'Arial', serif;
+        font-size: 1.2rem;
+        list-style: none;
+        padding: 0;
+    }
+
+    .index-list li {
+        display: flex;
+        align-items: baseline;
+        /* Ensures text and numbers line up on the bottom */
+        margin-bottom: 12px;
+    }
+
+    .index-list li a {
+        text-decoration: none;
+        color: #2c3e50;
+        padding-right: 10px;
+        font-style: italic;
+    }
+
+    /* The Dotted Leader */
+    .index-list li::after {
+        content: "";
+        flex-grow: 1;
+        border-bottom: 2px dotted #ccc;
+        height: 1px;
+    }
+
+    .index-list li span {
+        padding-left: 10px;
+        color: #555;
+    }
+
+    /* Hover effect for a modern touch */
+    .index-list li:hover a {
+        color: #a67c00;
+        /* Gold accent */
+    }
+</style>
+
+<body>
+    <div class="book-page">
+        <div class="index-wrapper">
+            <h1>Quiz Index</h1>
+
+            <ul class="index-list">
+                <li><a href="day-01.html">Day 01</a><span>pro-, pre-, fore-, post-, in-</span></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

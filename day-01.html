@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 01 - pro-, pre-, fore-, post-, in-</title>
+    <style>
+        :root {
+            --primary: #4a90e2;
+            --success: #2ecc71;
+            --danger: #e74c3c;
+            --text: #2c3e50;
+        }
+
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
+        .quiz-container { background: white; width: 90%; max-width: 500px; padding: 2rem; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); text-align: center; }
+        
+        /* O/X Score Tracker */
+        .score-tracker { display: flex; justify-content: center; gap: 10px; margin-bottom: 20px; }
+        .indicator { width: 35px; height: 35px; border: 2px solid #ddd; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; color: #bbb; transition: all 0.3s ease; }
+        .indicator.correct { background: var(--success); color: white; border-color: var(--success); }
+        .indicator.incorrect { background: var(--danger); color: white; border-color: var(--danger); }
+
+        /* Timer Bar */
+        .timer-bg { width: 100%; height: 8px; background: #eee; border-radius: 4px; margin-bottom: 25px; overflow: hidden; }
+        #timer-fill { width: 100%; height: 100%; background: var(--primary); transition: width 0.1s linear; }
+
+        .question-box h2 { font-size: 1.5rem; color: var(--text); margin-bottom: 20px; }
+        
+        .answer-list { display: grid; gap: 10px; }
+        .answer-btn { padding: 12px; border: 1px solid #ddd; border-radius: 8px; background: white; cursor: pointer; font-size: 1rem; text-align: left; transition: 0.2s; }
+        .answer-btn:hover { background-color: #f8f9fa; border-color: var(--primary); }
+
+        #result-screen { display: none; }
+        .hidden { display: none; }
+    </style>
+</head>
+<body>
+
+<div class="quiz-container">
+    <div class="score-tracker" id="tracker">
+        <div class="indicator" id="ind-0">1</div>
+        <div class="indicator" id="ind-1">2</div>
+        <div class="indicator" id="ind-2">3</div>
+        <div class="indicator" id="ind-3">4</div>
+        <div class="indicator" id="ind-4">5</div>
+        <div class="indicator" id="ind-5">6</div>
+        <div class="indicator" id="ind-6">7</div>
+        <div class="indicator" id="ind-7">8</div>
+        <div class="indicator" id="ind-8">9</div>
+        <div class="indicator" id="ind-9">10</div>
+    </div>
+
+    <div class="timer-bg" id="timer-box">
+        <div id="timer-fill"></div>
+    </div>
+
+    <div id="quiz-screen">
+        <div class="question-box">
+            <h2 id="question-text">Loading...</h2>
+            <div class="answer-list" id="answer-options"></div>
+        </div>
+    </div>
+
+    <div id="result-screen">
+        <h2>Quiz Complete!</h2>
+        <h1 id="final-score">0 / 5</h1>
+        <button onclick="location.reload()" class="answer-btn" style="width: 100%; text-align: center; background: var(--primary); color: white; border: none;">Restart Quiz</button>
+    </div>
+</div>
+
+<script>
+    // 1. Separate Word Pool (20 words)
+    const wordPool = [
+        { q: "진보, 발전(하다)", options: ["progress", "product", "promote", "premature", "foremost"], correct: "progress" },
+        { q: "제안(제시)하다, 청혼하다", options: ["progress", "product", "propose", "premature", "foremost"], correct: "propose" },
+        { q: "생산(제조)하다, 농산물", options: ["progress", "product", "propose", "premature", "produce"], correct: "produce" },
+        { q: "생산적인, 결실이 많은, 비옥한", options: ["productive", "product", "propose", "premature", "prospect"], correct: "productive" },
+        { q: "보호하다, 막다, 지키다", options: ["productive", "product", "predict", "premature", "protect"], correct: "protect" },
+        { q: "구매(하다), 구입(하다)", options: ["productive", "product", "purchase", "premature", "protect"], correct: "purchase" },
+        { q: "계속(진행)하다, 나아가다", options: ["proceed", "product", "purchase", "premature", "protect"], correct: "proceed" },
+        { q: "장려(촉진)하다, 승진(승격)시키다", options: ["proceed", "promote", "purchase", "premature", "protect"], correct: "promote" },
+        { q: "계획(하다), 예상(추정)하다", options: ["proceed", "promote", "purchase", "project", "protect"], correct: "project" },
+        { q: "예언하다(앞서 말하다), 예측하다", options: ["proceed", "promote", "purchase", "project", "predict"], correct: "predict" },
+        { q: "조심, 경계, 예방책", options: ["precaution", "promote", "purchase", "project", "predict"], correct: "precaution" },
+        { q: "시기상조의, 조급한, 너무이른", options: ["precaution", "promote", "purchase", "project", "premature"], correct: "premature" },
+        { q: "미리보기, 사전검토", options: ["precaution", "promote", "preview", "project", "premature"], correct: "preview" },
+        { q: "이마", options: ["precaution", "forward", "forehead", "project", "premature"], correct: "forehead" },
+        { q: "선조, 조상", options: ["precaution", "forward", "forehead", "project", "forefather"], correct: "forefather" },
+        { q: "가장 중요한, 최고의, 선두의, 맨 앞의", options: ["foremost", "forward", "forehead", "project", "forefather"], correct: "foremost" },
+        { q: "예견(예지)하다", options: ["foremost", "forward", "forehead", "foresee", "forefather"], correct: "foresee" },
+        { q: "연기하다, 뒤로 미루다", options: ["foremost", "forward", "forehead", "postpone", "forefather"], correct: "postpone" },
+        { q: "전후(전쟁후)의", options: ["postoffice", "postwar", "forehead", "postpone", "forefather"], correct: "postwar" },
+        { q: "수입, 소득", options: ["postoffice", "postwar", "forehead", "income", "forefather"], correct: "income" },
+        { q: "섭취(량)", options: ["postoffice", "intake", "forehead", "income", "forefather"], correct: "intake" },
+        { q: "감염, 오염", options: ["infection", "intake", "forehead", "income", "forefather"], correct: "infection" },
+        { q: "통찰력", options: ["infection", "intake", "insight", "income", "forefather"], correct: "insight" },
+        { q: "내재된, 고유의", options: ["infection", "intake", "insight", "income", "inherent"], correct: "inherent" },
+        { q: "투자, 투자자금", options: ["infection", "intake", "investment", "income", "inherent"], correct: "investment" },
+        { q: "수사(조사)하다 ", options: ["infection", "intake", "investment", "income", "investigate"], correct: "investigate" },
+        { q: "설명하다, 삽화를 쓰다, 예시를 보여주다", options: ["infection", "illustrate", "investment", "income", "investigate"], correct: "illustrate" },
+    ];
+
+    let currentQuestions = [];
+    let currentIdx = 0;
+    let score = 0;
+    let timer;
+    let timeLeft = 50; // Deciseconds (50 * 100ms = 5s)
+
+    // Function to pick 5 random items using Math.random
+    function getRandomQuestions() {
+        const shuffled = [...wordPool].sort(() => 0.5 - Math.random());
+        return shuffled.slice(0, 10);
+    }
+
+    function initQuiz() {
+        currentQuestions = getRandomQuestions();
+        loadQuestion();
+    }
+
+    function loadQuestion() {
+        if (currentIdx >= 10 ) return showResults();
+
+        timeLeft = 50;
+        const qData = currentQuestions[currentIdx];
+        document.getElementById('question-text').innerText = `Question ${currentIdx + 1}: ${qData.q}`;
+        
+        const optionsBox = document.getElementById('answer-options');
+        optionsBox.innerHTML = '';
+
+        // Shuffle options for the question as well
+        const shuffledOptions = [...qData.options].sort(() => 0.5 - Math.random());
+
+        shuffledOptions.forEach((opt, i) => {
+            const btn = document.createElement('button');
+            btn.className = 'answer-btn';
+            btn.innerText = `${i + 1}. ${opt}`;
+            btn.onclick = () => handleAnswer(opt === qData.correct);
+            optionsBox.appendChild(btn);
+        });
+
+        startTimer();
+    }
+
+    function startTimer() {
+        clearInterval(timer);
+        timer = setInterval(() => {
+            timeLeft--;
+            document.getElementById('timer-fill').style.width = (timeLeft * 2) + "%";
+            
+            if (timeLeft <= 0) {
+                handleAnswer(false); // Time's up is an incorrect answer
+            }
+        }, 100);
+    }
+
+    function handleAnswer(isCorrect) {
+        clearInterval(timer);
+        const indicator = document.getElementById(`ind-${currentIdx}`);
+
+        if (isCorrect) {
+            score++;
+            indicator.innerText = 'O';
+            indicator.classList.add('correct');
+        } else {
+            indicator.innerText = 'X';
+            indicator.classList.add('incorrect');
+        }
+
+        currentIdx++;
+        setTimeout(loadQuestion, 500); // Brief pause before next question
+    }
+
+    function showResults() {
+        document.getElementById('quiz-screen').classList.add('hidden');
+        document.getElementById('timer-box').classList.add('hidden');
+        document.getElementById('result-screen').style.display = 'block';
+        document.getElementById('final-score').innerText = `${score} / 10`;
+    }
+
+    initQuiz();
+</script>
+
+</body>
+</html>
