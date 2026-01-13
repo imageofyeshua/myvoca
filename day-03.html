@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 01 : pro-, pre-, fore-, post-, in-</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="quiz-container">
+    <div class="score-tracker" id="tracker">
+        <div class="indicator" id="ind-0">1</div>
+        <div class="indicator" id="ind-1">2</div>
+        <div class="indicator" id="ind-2">3</div>
+        <div class="indicator" id="ind-3">4</div>
+        <div class="indicator" id="ind-4">5</div>
+        <div class="indicator" id="ind-5">6</div>
+        <div class="indicator" id="ind-6">7</div>
+        <div class="indicator" id="ind-7">8</div>
+        <div class="indicator" id="ind-8">9</div>
+        <div class="indicator" id="ind-9">10</div>
+    </div>
+
+    <div class="timer-bg" id="timer-box">
+        <div id="timer-fill"></div>
+    </div>
+
+    <div id="quiz-screen">
+        <div class="question-box">
+            <h2 id="question-text">Loading...</h2>
+            <div class="answer-list" id="answer-options"></div>
+        </div>
+    </div>
+
+    <div id="result-screen">
+        <h2>Day <span class="day">03</span> Score</h2>
+        <h1 id="final-score">0 / 5</h1>
+        <button onclick="location.reload()" class="answer-btn" style="width: 100%; text-align: center; background: var(--primary); color: white; border: none;">Restart Quiz</button>
+    </div>
+</div>
+<script type="module" src="day02.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+[
+  {
+    "q": "기억해내다, 회상(상기)하다, 소환, 회수",
+    "options": ["recall", "record", "recover", "recycle", "research"],
+    "correct": "recall"
+  },
+  {
+    "q": "기록, 음반, 기록하다, 녹음하다",
+    "options": ["revive", "record", "recover", "recycle", "research"],
+    "correct": "record"
+  },
+  {
+    "q": "(건강,기능 등을) 회복하다, 되찾다",
+    "options": ["recall", "record", "recover", "recycle", "research"],
+    "correct": "recover"
+  },
+  {
+    "q": "재활용하다, 재생하다",
+    "options": ["recall", "remove", "recover", "recycle", "research"],
+    "correct": "recycle"
+  }
+]
