@@ -16,7 +16,137 @@
   },
   {
     "q": "재활용하다, 재생하다",
-    "options": ["recall", "remove", "recover", "recycle", "research"],
+    "options": ["recall", "replace", "recover", "recycle", "represent"],
     "correct": "recycle"
+  },
+  {
+    "q": "연구, 조사(하다)",
+    "options": ["recall", "remove", "recover", "recycle", "research"],
+    "correct": "research"
+  },
+  {
+    "q": "(~의 역할을) 대신하다, 교체하다",
+    "options": ["replace", "remove", "recover", "recycle", "renew"],
+    "correct": "replace"
+  },
+  {
+    "q": "생식(번식)하다",
+    "options": ["replace", "remove", "reproduce", "recycle", "research"],
+    "correct": "reproduce"
+  },
+  {
+    "q": "소생시키다, 되살아나게 하다",
+    "options": ["replace", "remove", "reproduce", "recycle", "revive"],
+    "correct": "revive"
+  },
+  {
+    "q": "제거하다, 옮기다, 이전시키다",
+    "options": ["replace", "remain", "reproduce", "recycle", "revive"],
+    "correct": "remove"
+  },
+  {
+    "q": "은퇴(퇴직)하다",
+    "options": ["retire", "remove", "reproduce", "recycle", "revive"],
+    "correct": "retire"
+  },
+  {
+    "q": "여전히 ~인 상태이다, 머무르다, 체류하다",
+    "options": ["retire", "remove", "reproduce", "renew", "remain"],
+    "correct": "remain"
+  },
+  {
+    "q": "(법정, 의회 등에서) 대변하다, 대표하다",
+    "options": ["retire", "represent", "reproduce", "recycle", "remain"],
+    "correct": "represent"
+  },
+  {
+    "q": "다시 새롭게 하다, 갱신하다, 재개하다",
+    "options": ["retire", "represent", "reveal", "renew", "remain"],
+    "correct": "renew"
+  },
+  {
+    "q": "베일을 벗기다, 드러내다, 폭로하다",
+    "options": ["retire", "represent", "reveal", "renew", "remain"],
+    "correct": "reveal"
+  },
+  {
+    "q": "다시 보기, 재검토(하다)",
+    "options": ["retire", "represent", "reveal", "renew", "review"],
+    "correct": "review"
+  },
+  {
+    "q": "수정하다, 개정하다, 다시 보다",
+    "options": ["revise", "represent", "reveal", "renew", "review"],
+    "correct": "revise"
+  },
+  {
+    "q": "뒤로 잡아당겨두다, 제지하다, 억누르다",
+    "options": ["revise", "represent", "reveal", "restrain", "review"],
+    "correct": "restrain"
+  },
+  {
+    "q": "국제적인, 국가 간의",
+    "options": ["interchange", "international", "interpret", "interaction", "interfere"],
+    "correct": "international"
+  },
+  {
+    "q": "통역하다, (~의 의미로) 이해하다",
+    "options": ["interchange", "international", "interpret", "interaction", "interfere"],
+    "correct": "interpret"
+  },
+  {
+    "q": "간섭하다, 방해하다",
+    "options": ["interchange", "international", "interpret", "interaction", "interfere"],
+    "correct": "interfere"
+  },
+  {
+    "q": "상호 작용, 상호 영향",
+    "options": ["interchange", "interest", "interpret", "interaction", "interfere"],
+    "correct": "interaction"
+  },
+  {
+    "q": "대화, 문답, 회화",
+    "options": ["dialog", "dialect", "diagnose", "diameter", "interfere"],
+    "correct": "dialog"
+  },
+  {
+    "q": "방언, 사투리",
+    "options": ["dialog", "dialect", "diagnose", "interpret", "diameter"],
+    "correct": "dialect"
+  },
+  {
+    "q": "지름, 직경",
+    "options": ["dialog", "dialect", "diagnose", "diameter", "interfere"],
+    "correct": "diameter"
+  },
+  {
+    "q": "이동시키다, 옮기다, 갈아타다, 전학, 갈아타기, 전송",
+    "options": ["transition", "transparent", "transfer", "transform", "transact"],
+    "correct": "transfer"
+  },
+  {
+    "q": "변형(변화)시키다",
+    "options": ["transition", "transparent", "transfer", "transform", "transplant"],
+    "correct": "transform"
+  },
+  {
+    "q": "번역하다",
+    "options": ["transition", "translate", "transfer", "transform", "transact"],
+    "correct": "translate"
+  },
+  {
+    "q": "옮겨심다, (기관, 조직등을) 이식하다",
+    "options": ["transition", "translate", "transplant", "transform", "transact"],
+    "correct": "transplant"
+  },
+  {
+    "q": "~을 통해 보이는, 투명한, 비치는, 명백한",
+    "options": ["transition", "translate", "transplant", "transform", "transparent"],
+    "correct": "transparent"
+  },
+  {
+    "q": "~을 통해 행동하는 것, 거래",
+    "options": ["transition", "transaction", "transplant", "transform", "transparent"],
+    "correct": "transaction"
   }
 ]
