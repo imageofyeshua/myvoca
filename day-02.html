@@ -3,37 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Day 02 : out-, over-, extra-, mis-</title>
-    <style>
-        :root {
-            --primary: #4a90e2;
-            --success: #2ecc71;
-            --danger: #e74c3c;
-            --text: #2c3e50;
-        }
-
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; display: flex; justify-content: center; align-items: center; min-height: 100vh; margin: 0; }
-        .quiz-container { background: white; width: 90%; max-width: 500px; padding: 2rem; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); text-align: center; }
-        
-        /* O/X Score Tracker */
-        .score-tracker { display: flex; justify-content: center; gap: 10px; margin-bottom: 20px; }
-        .indicator { width: 35px; height: 35px; border: 2px solid #ddd; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; color: #bbb; transition: all 0.3s ease; }
-        .indicator.correct { background: var(--success); color: white; border-color: var(--success); }
-        .indicator.incorrect { background: var(--danger); color: white; border-color: var(--danger); }
-
-        /* Timer Bar */
-        .timer-bg { width: 100%; height: 8px; background: #eee; border-radius: 4px; margin-bottom: 25px; overflow: hidden; }
-        #timer-fill { width: 100%; height: 100%; background: var(--primary); transition: width 0.1s linear; }
-
-        .question-box h2 { font-size: 1.5rem; color: var(--text); margin-bottom: 20px; }
-        
-        .answer-list { display: grid; gap: 10px; }
-        .answer-btn { padding: 12px; border: 1px solid #ddd; border-radius: 8px; background: white; cursor: pointer; font-size: 1rem; text-align: left; transition: 0.2s; }
-        .answer-btn:hover { background-color: #f8f9fa; border-color: var(--primary); }
-
-        #result-screen { display: none; }
-        .hidden { display: none; }
-    </style>
+    <title>Day 01 : pro-, pre-, fore-, post-, in-</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -63,126 +34,11 @@
     </div>
 
     <div id="result-screen">
-        <h2>Quiz Complete!</h2>
+        <h2>Day <span class="day">02</span> Score</h2>
         <h1 id="final-score">0 / 5</h1>
         <button onclick="location.reload()" class="answer-btn" style="width: 100%; text-align: center; background: var(--primary); color: white; border: none;">Restart Quiz</button>
     </div>
 </div>
-
-<script>
-    // 1. Separate Word Pool (20 words)
-    const wordPool = [
-        { q: "결과, 성과", options: ["outcome", "overcome", "outlook", "outlet", "outstanding"], correct: "outcome" },
-        { q: "개요, 윤곽, 개요를 서술하다, 윤곽을 보여주다", options: ["outcome", "overcome", "outline", "outlet", "outstanding"], correct: "outline" },
-        { q: "전망, 예측, 견해, 경치", options: ["outcome", "overcome", "outline", "overload", "outlook"], correct: "outlook" },
-        { q: "뛰어난, 두드러진", options: ["outstanding", "overcome", "outline", "outlet", "outlook"], correct: "outstanding" },
-        { q: "배출구, 표출 방법, 상점, 전기 콘센트", options: ["outweigh", "overcome", "outline", "outlet", "outlook"], correct: "outlet" },
-        { q: "완전한, 전적인, 말하다, (소리등을) 내다", options: ["utter", "overcome", "outline", "outlet", "outlook"], correct: "utter" },
-        { q: "최대의, 극도의", options: ["utter", "overcome", "outline", "outlet", "utmost"], correct: "utmost" },
-        { q: "(도시, 읍등의) 교외, 변두리", options: ["utter", "overcome", "outskirts", "outlet", "utmost"], correct: "outskirts" },
-        { q: "사교적인, 외향적인", options: ["utter", "overcome", "outskirts", "outgoing", "utmost"], correct: "outgoing" },
-        { q: "부랑자, 추방당한 사람, 왕따(밖으로 던져진)", options: ["outcast", "overcome", "outskirts", "outgoing", "utmost"], correct: "outcast" },
-        { q: "생산(고), 산출 (밖으로 내놓음)", options: ["outcast", "output", "outskirts", "outgoing", "utmost"], correct: "output" },
-        { q: "~보다 수적으로 우세하다 (~보다 수가 많다)", options: ["outcast", "output", "outskirts", "outgoing", "outnumber"], correct: "outnumber" },
-        { q: "~보다 뛰어나다 중요하다 (~보다 크다, 대단하다)", options: ["outcast", "output", "outskirts", "outweigh", "outnumber"], correct: "outweigh" },
-        { q: "(곤란, 장애, 적등을) 극복하다, 이겨내다", options: ["outcast", "output", "overcome", "outweigh", "outnumber"], correct: "overcome" },
-        { q: "간과하다, 못보고 넘어가다", options: ["outcast", "overlook", "overcome", "outweigh", "outnumber"], correct: "overlook" },
-        { q: "해외로, 해외에 있는, 외국의", options: ["overseas", "overlook", "overcome", "outweigh", "outnumber"], correct: "overseas" },
-        { q: "머리 위에, (하늘) 높이", options: ["overseas", "overlook", "overcome", "overhead", "outnumber"], correct: "overhead" },
-        { q: "(생산, 득점등) 능가하다, 추월하다", options: ["overseas", "overlook", "overcome", "overhead", "overtake"], correct: "overtake" },
-        { q: "압도하다, 당황하게 하다", options: ["overseas", "overlook", "overwhelm", "overhead", "overtake"], correct: "overwhelm" },
-        { q: "겹치다, 포개지다, 겹침, 중복", options: ["overseas", "overlap", "overwhelm", "overhead", "overtake"], correct: "overlap" },
-        { q: "넘치다, 범람하다, 넘침, 범람", options: ["overseas", "overlap", "overwhelm", "overflow", "overtake"], correct: "overflow" },
-        { q: "과적하다, 과부하 (너무 많이 싣다)", options: ["overseas", "overlap", "overwhelm", "overload", "overtake"], correct: "overload" },
-        { q: "정규 교과 과정 이외의, (클럽 활동 등) 과외의", options: ["overseas", "overlap", "overwhelm", "overload", "extracurricular"], correct: "extracurricular" },
-        { q: "지구 밖의, 외계의, 외계인, 우주인", options: ["overseas", "overlap", "extraterrestrial", "overload", "extracurricular"], correct: "extraterrestrial" },
-        { q: "이상한, 비범한, 대단한", options: ["overseas", "extraordinary", "extraterrestrial", "overload", "extracurricular"], correct: "extraordinary" },
-        { q: "외향적인 사람", options: ["extrovert", "extraordinary", "extraterrestrial", "overload", "extracurricular"], correct: "extrovert" },
-        { q: "외부의, 밖의", options: ["extrovert", "extraordinary", "extraterrestrial", "external", "extracurricular"], correct: "external" },
-        { q: "불운, 불행, 역경", options: ["extrovert", "extraordinary", "misfortune", "external", "extracurricular"], correct: "misfortune" },
-        { q: "잘못 인도하다, 속이다, 오해하게 하다", options: ["extrovert", "extraordinary", "misfortune", "mislead", "extracurricular"], correct: "mislead" },
-        { q: "버릇 없이 굴다, 비행을 저지르다", options: ["misbehave", "extraordinary", "misfortune", "mislead", "extracurricular"], correct: "misbehave" },
-    ];
-
-    let currentQuestions = [];
-    let currentIdx = 0;
-    let score = 0;
-    let timer;
-    let timeLeft = 50; // Deciseconds (50 * 100ms = 5s)
-
-    // Function to pick 5 random items using Math.random
-    function getRandomQuestions() {
-        const shuffled = [...wordPool].sort(() => 0.5 - Math.random());
-        return shuffled.slice(0, 10);
-    }
-
-    function initQuiz() {
-        currentQuestions = getRandomQuestions();
-        loadQuestion();
-    }
-
-    function loadQuestion() {
-        if (currentIdx >= 10 ) return showResults();
-
-        timeLeft = 50;
-        const qData = currentQuestions[currentIdx];
-        document.getElementById('question-text').innerText = `${qData.q}`;
-        
-        const optionsBox = document.getElementById('answer-options');
-        optionsBox.innerHTML = '';
-
-        // Shuffle options for the question as well
-        const shuffledOptions = [...qData.options].sort(() => 0.5 - Math.random());
-
-        shuffledOptions.forEach((opt, i) => {
-            const btn = document.createElement('button');
-            btn.className = 'answer-btn';
-            btn.innerText = `${i + 1}. ${opt}`;
-            btn.onclick = () => handleAnswer(opt === qData.correct);
-            optionsBox.appendChild(btn);
-        });
-
-        startTimer();
-    }
-
-    function startTimer() {
-        clearInterval(timer);
-        timer = setInterval(() => {
-            timeLeft--;
-            document.getElementById('timer-fill').style.width = (timeLeft * 2) + "%";
-            
-            if (timeLeft <= 0) {
-                handleAnswer(false); // Time's up is an incorrect answer
-            }
-        }, 100);
-    }
-
-    function handleAnswer(isCorrect) {
-        clearInterval(timer);
-        const indicator = document.getElementById(`ind-${currentIdx}`);
-
-        if (isCorrect) {
-            score++;
-            indicator.innerText = 'O';
-            indicator.classList.add('correct');
-        } else {
-            indicator.innerText = 'X';
-            indicator.classList.add('incorrect');
-        }
-
-        currentIdx++;
-        setTimeout(loadQuestion, 500); // Brief pause before next question
-    }
-
-    function showResults() {
-        document.getElementById('quiz-screen').classList.add('hidden');
-        document.getElementById('timer-box').classList.add('hidden');
-        document.getElementById('result-screen').style.display = 'block';
-        document.getElementById('final-score').innerText = `${score} / 10`;
-    }
-
-    initQuiz();
-</script>
-
+<script type="module" src="day02.js"></script>
 </body>
 </html>

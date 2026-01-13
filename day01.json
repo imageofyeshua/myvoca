@@ -1,0 +1,299 @@
+[
+    {
+        "q": "진보, 발전(하다)",
+        "options": [
+            "progress",
+            "product",
+            "promote",
+            "premature",
+            "foremost"
+        ],
+        "correct": "progress"
+    },
+    {
+        "q": "제안(제시)하다, 청혼하다",
+        "options": [
+            "progress",
+            "product",
+            "propose",
+            "premature",
+            "foremost"
+        ],
+        "correct": "propose"
+    },
+    {
+        "q": "생산(제조)하다, 농산물",
+        "options": [
+            "progress",
+            "product",
+            "propose",
+            "premature",
+            "produce"
+        ],
+        "correct": "produce"
+    },
+    {
+        "q": "생산적인, 결실이 많은, 비옥한",
+        "options": [
+            "productive",
+            "product",
+            "propose",
+            "premature",
+            "prospect"
+        ],
+        "correct": "productive"
+    },
+    {
+        "q": "보호하다, 막다, 지키다",
+        "options": [
+            "productive",
+            "product",
+            "predict",
+            "premature",
+            "protect"
+        ],
+        "correct": "protect"
+    },
+    {
+        "q": "구매(하다), 구입(하다)",
+        "options": [
+            "productive",
+            "product",
+            "purchase",
+            "premature",
+            "protect"
+        ],
+        "correct": "purchase"
+    },
+    {
+        "q": "계속(진행)하다, 나아가다",
+        "options": [
+            "proceed",
+            "product",
+            "purchase",
+            "premature",
+            "protect"
+        ],
+        "correct": "proceed"
+    },
+    {
+        "q": "장려(촉진)하다, 승진(승격)시키다",
+        "options": [
+            "proceed",
+            "promote",
+            "purchase",
+            "premature",
+            "protect"
+        ],
+        "correct": "promote"
+    },
+    {
+        "q": "계획(하다), 예상(추정)하다",
+        "options": [
+            "proceed",
+            "promote",
+            "purchase",
+            "project",
+            "protect"
+        ],
+        "correct": "project"
+    },
+    {
+        "q": "예언하다(앞서 말하다), 예측하다",
+        "options": [
+            "proceed",
+            "promote",
+            "purchase",
+            "project",
+            "predict"
+        ],
+        "correct": "predict"
+    },
+    {
+        "q": "조심, 경계, 예방책",
+        "options": [
+            "precaution",
+            "promote",
+            "purchase",
+            "project",
+            "predict"
+        ],
+        "correct": "precaution"
+    },
+    {
+        "q": "시기상조의, 조급한, 너무이른",
+        "options": [
+            "precaution",
+            "promote",
+            "purchase",
+            "project",
+            "premature"
+        ],
+        "correct": "premature"
+    },
+    {
+        "q": "미리보기, 사전검토",
+        "options": [
+            "precaution",
+            "promote",
+            "preview",
+            "project",
+            "premature"
+        ],
+        "correct": "preview"
+    },
+    {
+        "q": "이마",
+        "options": [
+            "precaution",
+            "forward",
+            "forehead",
+            "project",
+            "premature"
+        ],
+        "correct": "forehead"
+    },
+    {
+        "q": "선조, 조상",
+        "options": [
+            "precaution",
+            "forward",
+            "forehead",
+            "project",
+            "forefather"
+        ],
+        "correct": "forefather"
+    },
+    {
+        "q": "가장 중요한, 최고의, 선두의, 맨 앞의",
+        "options": [
+            "foremost",
+            "forward",
+            "forehead",
+            "project",
+            "forefather"
+        ],
+        "correct": "foremost"
+    },
+    {
+        "q": "예견(예지)하다",
+        "options": [
+            "foremost",
+            "forward",
+            "forehead",
+            "foresee",
+            "forefather"
+        ],
+        "correct": "foresee"
+    },
+    {
+        "q": "연기하다, 뒤로 미루다",
+        "options": [
+            "foremost",
+            "forward",
+            "forehead",
+            "postpone",
+            "forefather"
+        ],
+        "correct": "postpone"
+    },
+    {
+        "q": "전후(전쟁후)의",
+        "options": [
+            "postoffice",
+            "postwar",
+            "forehead",
+            "postpone",
+            "forefather"
+        ],
+        "correct": "postwar"
+    },
+    {
+        "q": "수입, 소득",
+        "options": [
+            "postoffice",
+            "postwar",
+            "forehead",
+            "income",
+            "forefather"
+        ],
+        "correct": "income"
+    },
+    {
+        "q": "섭취(량)",
+        "options": [
+            "postoffice",
+            "intake",
+            "forehead",
+            "income",
+            "forefather"
+        ],
+        "correct": "intake"
+    },
+    {
+        "q": "감염, 오염",
+        "options": [
+            "infection",
+            "intake",
+            "forehead",
+            "income",
+            "forefather"
+        ],
+        "correct": "infection"
+    },
+    {
+        "q": "통찰력",
+        "options": [
+            "infection",
+            "intake",
+            "insight",
+            "income",
+            "forefather"
+        ],
+        "correct": "insight"
+    },
+    {
+        "q": "내재된, 고유의",
+        "options": [
+            "infection",
+            "intake",
+            "insight",
+            "income",
+            "inherent"
+        ],
+        "correct": "inherent"
+    },
+    {
+        "q": "투자, 투자자금",
+        "options": [
+            "infection",
+            "intake",
+            "investment",
+            "income",
+            "inherent"
+        ],
+        "correct": "investment"
+    },
+    {
+        "q": "수사(조사)하다 ",
+        "options": [
+            "infection",
+            "intake",
+            "investment",
+            "income",
+            "investigate"
+        ],
+        "correct": "investigate"
+    },
+    {
+        "q": "설명하다, 삽화를 쓰다, 예시를 보여주다",
+        "options": [
+            "infection",
+            "illustrate",
+            "investment",
+            "income",
+            "investigate"
+        ],
+        "correct": "illustrate"
+    }
+]

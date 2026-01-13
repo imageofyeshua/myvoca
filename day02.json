@@ -1,0 +1,332 @@
+[
+    {
+        "q": "결과, 성과",
+        "options": [
+            "outcome",
+            "overcome",
+            "outlook",
+            "outlet",
+            "outstanding"
+        ],
+        "correct": "outcome"
+    },
+    {
+        "q": "개요, 윤곽, 개요를 서술하다, 윤곽을 보여주다",
+        "options": [
+            "outcome",
+            "overcome",
+            "outline",
+            "outlet",
+            "outstanding"
+        ],
+        "correct": "outline"
+    },
+    {
+        "q": "전망, 예측, 견해, 경치",
+        "options": [
+            "outcome",
+            "overcome",
+            "outline",
+            "overload",
+            "outlook"
+        ],
+        "correct": "outlook"
+    },
+    {
+        "q": "뛰어난, 두드러진",
+        "options": [
+            "outstanding",
+            "overcome",
+            "outline",
+            "outlet",
+            "outlook"
+        ],
+        "correct": "outstanding"
+    },
+    {
+        "q": "배출구, 표출 방법, 상점, 전기 콘센트",
+        "options": [
+            "outweigh",
+            "overcome",
+            "outline",
+            "outlet",
+            "outlook"
+        ],
+        "correct": "outlet"
+    },
+    {
+        "q": "완전한, 전적인, 말하다, (소리등을) 내다",
+        "options": [
+            "utter",
+            "overcome",
+            "outline",
+            "outlet",
+            "outlook"
+        ],
+        "correct": "utter"
+    },
+    {
+        "q": "최대의, 극도의",
+        "options": [
+            "utter",
+            "overcome",
+            "outline",
+            "outlet",
+            "utmost"
+        ],
+        "correct": "utmost"
+    },
+    {
+        "q": "(도시, 읍등의) 교외, 변두리",
+        "options": [
+            "utter",
+            "overcome",
+            "outskirts",
+            "outlet",
+            "utmost"
+        ],
+        "correct": "outskirts"
+    },
+    {
+        "q": "사교적인, 외향적인",
+        "options": [
+            "utter",
+            "overcome",
+            "outskirts",
+            "outgoing",
+            "utmost"
+        ],
+        "correct": "outgoing"
+    },
+    {
+        "q": "부랑자, 추방당한 사람, 왕따(밖으로 던져진)",
+        "options": [
+            "outcast",
+            "overcome",
+            "outskirts",
+            "outgoing",
+            "utmost"
+        ],
+        "correct": "outcast"
+    },
+    {
+        "q": "생산(고), 산출 (밖으로 내놓음)",
+        "options": [
+            "outcast",
+            "output",
+            "outskirts",
+            "outgoing",
+            "utmost"
+        ],
+        "correct": "output"
+    },
+    {
+        "q": "~보다 수적으로 우세하다 (~보다 수가 많다)",
+        "options": [
+            "outcast",
+            "output",
+            "outskirts",
+            "outgoing",
+            "outnumber"
+        ],
+        "correct": "outnumber"
+    },
+    {
+        "q": "~보다 뛰어나다 중요하다 (~보다 크다, 대단하다)",
+        "options": [
+            "outcast",
+            "output",
+            "outskirts",
+            "outweigh",
+            "outnumber"
+        ],
+        "correct": "outweigh"
+    },
+    {
+        "q": "(곤란, 장애, 적등을) 극복하다, 이겨내다",
+        "options": [
+            "outcast",
+            "output",
+            "overcome",
+            "outweigh",
+            "outnumber"
+        ],
+        "correct": "overcome"
+    },
+    {
+        "q": "간과하다, 못보고 넘어가다",
+        "options": [
+            "outcast",
+            "overlook",
+            "overcome",
+            "outweigh",
+            "outnumber"
+        ],
+        "correct": "overlook"
+    },
+    {
+        "q": "해외로, 해외에 있는, 외국의",
+        "options": [
+            "overseas",
+            "overlook",
+            "overcome",
+            "outweigh",
+            "outnumber"
+        ],
+        "correct": "overseas"
+    },
+    {
+        "q": "머리 위에, (하늘) 높이",
+        "options": [
+            "overseas",
+            "overlook",
+            "overcome",
+            "overhead",
+            "outnumber"
+        ],
+        "correct": "overhead"
+    },
+    {
+        "q": "(생산, 득점등) 능가하다, 추월하다",
+        "options": [
+            "overseas",
+            "overlook",
+            "overcome",
+            "overhead",
+            "overtake"
+        ],
+        "correct": "overtake"
+    },
+    {
+        "q": "압도하다, 당황하게 하다",
+        "options": [
+            "overseas",
+            "overlook",
+            "overwhelm",
+            "overhead",
+            "overtake"
+        ],
+        "correct": "overwhelm"
+    },
+    {
+        "q": "겹치다, 포개지다, 겹침, 중복",
+        "options": [
+            "overseas",
+            "overlap",
+            "overwhelm",
+            "overhead",
+            "overtake"
+        ],
+        "correct": "overlap"
+    },
+    {
+        "q": "넘치다, 범람하다, 넘침, 범람",
+        "options": [
+            "overseas",
+            "overlap",
+            "overwhelm",
+            "overflow",
+            "overtake"
+        ],
+        "correct": "overflow"
+    },
+    {
+        "q": "과적하다, 과부하 (너무 많이 싣다)",
+        "options": [
+            "overseas",
+            "overlap",
+            "overwhelm",
+            "overload",
+            "overtake"
+        ],
+        "correct": "overload"
+    },
+    {
+        "q": "정규 교과 과정 이외의, (클럽 활동 등) 과외의",
+        "options": [
+            "overseas",
+            "overlap",
+            "overwhelm",
+            "overload",
+            "extracurricular"
+        ],
+        "correct": "extracurricular"
+    },
+    {
+        "q": "지구 밖의, 외계의, 외계인, 우주인",
+        "options": [
+            "overseas",
+            "overlap",
+            "extraterrestrial",
+            "overload",
+            "extracurricular"
+        ],
+        "correct": "extraterrestrial"
+    },
+    {
+        "q": "이상한, 비범한, 대단한",
+        "options": [
+            "overseas",
+            "extraordinary",
+            "extraterrestrial",
+            "overload",
+            "extracurricular"
+        ],
+        "correct": "extraordinary"
+    },
+    {
+        "q": "외향적인 사람",
+        "options": [
+            "extrovert",
+            "extraordinary",
+            "extraterrestrial",
+            "overload",
+            "extracurricular"
+        ],
+        "correct": "extrovert"
+    },
+    {
+        "q": "외부의, 밖의",
+        "options": [
+            "extrovert",
+            "extraordinary",
+            "extraterrestrial",
+            "external",
+            "extracurricular"
+        ],
+        "correct": "external"
+    },
+    {
+        "q": "불운, 불행, 역경",
+        "options": [
+            "extrovert",
+            "extraordinary",
+            "misfortune",
+            "external",
+            "extracurricular"
+        ],
+        "correct": "misfortune"
+    },
+    {
+        "q": "잘못 인도하다, 속이다, 오해하게 하다",
+        "options": [
+            "extrovert",
+            "extraordinary",
+            "misfortune",
+            "mislead",
+            "extracurricular"
+        ],
+        "correct": "mislead"
+    },
+    {
+        "q": "버릇 없이 굴다, 비행을 저지르다",
+        "options": [
+            "misbehave",
+            "extraordinary",
+            "misfortune",
+            "mislead",
+            "extracurricular"
+        ],
+        "correct": "misbehave"
+    }
+]
