@@ -6,7 +6,7 @@ export function renderWords(words) {
   let timer;
   let timeLeft = 50; // Deciseconds (50 * 100ms = 5s)
 
-  // Function to pick 5 random items using Math.random
+  // Function to pick 10 random items using Math.random
   function getRandomQuestions() {
     const shuffled = [...wordPool].sort(() => 0.5 - Math.random());
     return shuffled.slice(0, 10);
@@ -33,7 +33,7 @@ export function renderWords(words) {
     shuffledOptions.forEach((opt, i) => {
       const btn = document.createElement("button");
       btn.className = "answer-btn";
-      btn.innerText = `${i + 1}. ${opt}`;
+      btn.innerText = `${opt}`;
       btn.onclick = () => handleAnswer(opt === qData.correct);
       optionsBox.appendChild(btn);
     });

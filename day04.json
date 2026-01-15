@@ -1,0 +1,176 @@
+[
+  {
+    "q": "낙담시키다, 우울하게 하다, 불경기로 만들다",
+    "options": ["depress", "despise", "depart", "derive", "detect"],
+    "correct": "depress"
+  },
+  {
+    "q": "경멸하다, 얕보다",
+    "options": ["develop", "despise", "depart", "derive", "detect"],
+    "correct": "despise"
+  },
+  {
+    "q": "떠나다, 출발하다",
+    "options": ["depress", "despise", "depart", "derive", "detach"],
+    "correct": "depart"
+  },
+  {
+    "q": "이끌어내다, 얻다, ~에서 유래하다, 파생되다",
+    "options": ["depress", "despise", "declare", "derive", "detect"],
+    "correct": "derive"
+  },
+  {
+    "q": "발견하다, 찾아내다",
+    "options": ["depress", "despise", "depart", "derive", "detect"],
+    "correct": "detect"
+  },
+  {
+    "q": "분리하다, 떼어내다",
+    "options": ["depress", "detach", "depart", "derive", "detect"],
+    "correct": "detach"
+  },
+  {
+    "q": "발전(발달)하다, 개발하다, 성장하다",
+    "options": ["depress", "detach", "depart", "derive", "develop"],
+    "correct": "develop"
+  },
+  {
+    "q": "선언(발표)하다, (세관등에) 신고하다",
+    "options": ["depress", "detach", "depart", "declare", "develop"],
+    "correct": "declare"
+  },
+  {
+    "q": "토론(논쟁)하다, 토론, 논쟁",
+    "options": ["debate", "detach", "depart", "declare", "develop"],
+    "correct": "debate"
+  },
+  {
+    "q": "입증(증명)하다, 설명하다, 시위하다",
+    "options": ["debate", "detach", "depart", "declare", "demonstrate"],
+    "correct": "demonstrate"
+  },
+  {
+    "q": "(그림으로) 그리다, (말로) 묘사하다",
+    "options": ["debate", "detach", "describe", "declare", "demonstrate"],
+    "correct": "describe"
+  },
+  {
+    "q": "대학생(의), 학부생(의)",
+    "options": [
+      "understand",
+      "undergo",
+      "undertake",
+      "undergraduate",
+      "underlie"
+    ],
+    "correct": "undergraduate"
+  },
+  {
+    "q": "(변화, 곤란함 등을) 겪다, 경험하다",
+    "options": [
+      "understand",
+      "undergo",
+      "undertake",
+      "undergraduate",
+      "underlie"
+    ],
+    "correct": "undergo"
+  },
+  {
+    "q": "(떠)맡다, ~의 책임을 지다",
+    "options": [
+      "undercover",
+      "undergo",
+      "undertake",
+      "undergraduate",
+      "underlie"
+    ],
+    "correct": "undertake"
+  },
+  {
+    "q": "~의 기저를 이루다, 기본이 되다",
+    "options": [
+      "undercover",
+      "undergo",
+      "undertake",
+      "undergraduate",
+      "underlie"
+    ],
+    "correct": "underlie"
+  },
+  {
+    "q": "(숨을) 내쉬다, (공기, 가스 등을) 내뿜다",
+    "options": ["exhale", "expand", "explicit", "explain", "expose"],
+    "correct": "exhale"
+  },
+  {
+    "q": "커지다, 팽창하다, 확대시키다",
+    "options": ["exhaust", "expand", "explicit", "explain", "expose"],
+    "correct": "expand"
+  },
+  {
+    "q": "뚜렷한, 명백한, 노골적인, 숨김없는",
+    "options": ["exhaust", "expand", "explicit", "explain", "expose"],
+    "correct": "explicit"
+  },
+  {
+    "q": "설명하다, 해명하다",
+    "options": ["exhaust", "exchange", "explicit", "explain", "expose"],
+    "correct": "explain"
+  },
+  {
+    "q": "(햇볕, 위험 등에) 노출시키다, 드러내다",
+    "options": ["expel", "exchange", "explicit", "explain", "expose"],
+    "correct": "expose"
+  },
+  {
+    "q": "과장하다, 과장해서 말하다",
+    "options": ["exhaust", "excellent", "exaggerate", "explain", "expose"],
+    "correct": "exaggerate"
+  },
+  {
+    "q": "교환, 주고받기, 환전(하다)",
+    "options": ["exhaust", "exchange", "exaggerate", "explain", "evaporation"],
+    "correct": "exchange"
+  },
+  {
+    "q": "지치게 하다, 다 써 버리다, 고갈시키다",
+    "options": ["exhaust", "exchange", "exaggerate", "explain", "evaporation"],
+    "correct": "exhaust"
+  },
+  {
+    "q": "증발, 발산",
+    "options": ["exhaust", "exchange", "exaggerate", "explain", "evaporation"],
+    "correct": "evaporation"
+  },
+  {
+    "q": "~을 제외하고 ~ 이외에는",
+    "options": ["exhaust", "export", "exaggerate", "explain", "except"],
+    "correct": "except"
+  },
+  {
+    "q": "추방하다, 쫓아내다",
+    "options": ["excellent", "export", "exaggerate", "expel", "except"],
+    "correct": "expel"
+  },
+  {
+    "q": "수출하다, 수출(품)",
+    "options": ["exhaust", "export", "exaggerate", "expel", "except"],
+    "correct": "export"
+  },
+  {
+    "q": "연장하다, 확장하다, 뻗다, 내밀다",
+    "options": ["extend", "export", "exaggerate", "expel", "except"],
+    "correct": "extend"
+  },
+  {
+    "q": "우수한, 뛰어난",
+    "options": ["extend", "export", "exaggerate", "expel", "excellent"],
+    "correct": "excellent"
+  },
+  {
+    "q": "전직-대통령",
+    "options": ["extend", "export", "ex-president", "expel", "excellent"],
+    "correct": "ex-president"
+  }
+]
