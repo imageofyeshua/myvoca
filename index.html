@@ -7,6 +7,13 @@
     <title>Voca - Intermediate</title>
 </head>
 <style>
+    :root {
+        --primary: #4a90e2;
+        --success: #2ecc71;
+        --danger: #e74c3c;
+        --text: #2c3e50;
+    }
+
     /* Background styling to mimic a book page */
     body {
         background-color: #f4f1ea;
@@ -74,12 +81,16 @@
         color: #a67c00;
         /* Gold accent */
     }
+
+    .level {
+        color: var(--primary)
+    }
 </style>
 
 <body>
     <div class="book-page">
         <div class="index-wrapper">
-            <h1>Voca Level 1 Index</h1>
+            <h1>Voca <span class="level">Intermediate</span></h1>
 
             <ul class="index-list">
                 <li><a href="day-01.html">Day 01</a><span>pro-, pre-, fore-, post-, in-</span></li>
