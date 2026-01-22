@@ -1,0 +1,152 @@
+[
+  {
+    "q": "우수한, 보다 나은, ~보다 상위의",
+    "options": ["superior", "superb", "superficial", "sovereign", "surface"],
+    "correct": "superior"
+  },
+  {
+    "q": "뛰어난, 멋진",
+    "options": ["superior", "superb", "superficial", "sovereign", "surface"],
+    "correct": "superb"
+  },
+  {
+    "q": "표면의, 외관상의, 피상적인",
+    "options": ["superior", "superb", "superficial", "sovereign", "surface"],
+    "correct": "superficial"
+  },
+  {
+    "q": "주권이 있는, 최고 권력의, 통치자",
+    "options": ["superior", "superb", "superficial", "sovereign", "surface"],
+    "correct": "sovereign"
+  },
+  {
+    "q": "표면, 외관, (수면으로) 올라오다",
+    "options": ["superior", "superb", "surface", "sovereign", "survival"],
+    "correct": "surface"
+  },
+  {
+    "q": "감독하다, 관리하다",
+    "options": ["supervise", "surpass", "submarine", "sovereign", "surface"],
+    "correct": "supervise"
+  },
+  {
+    "q": "~을 능가하다, ~보다 낫다",
+    "options": ["supervise", "superb", "survive", "surpass", "suffer"],
+    "correct": "surpass"
+  },
+  {
+    "q": "살아남다, 생존하다",
+    "options": ["supervise", "superb", "survive", "surpass", "surface"],
+    "correct": "survive"
+  },
+  {
+    "q": "지지하다, 옹호하다",
+    "options": ["uphold", "upright", "upset", "upside", "update"],
+    "correct": "uphold"
+  },
+  {
+    "q": "똑바른; 수직으로 세운",
+    "options": ["uphold", "upright", "upset", "upside", "update"],
+    "correct": "upright"
+  },
+  {
+    "q": "기분이 상한, 화난, 뒤집어엎다",
+    "options": ["uphold", "upright", "upset", "upside", "update"],
+    "correct": "upset"
+  },
+  {
+    "q": "위쪽, 윗면",
+    "options": ["uphold", "upright", "upset", "upside", "update"],
+    "correct": "upside"
+  },
+  {
+    "q": "잠수함",
+    "options": ["submarine", "suffer", "suggest", "support", "suppress"],
+    "correct": "submarine"
+  },
+  {
+    "q": "(고통 등을) 겪다, ~로 괴로워하다",
+    "options": ["submarine", "suffer", "suggest", "support", "suppress"],
+    "correct": "suffer"
+  },
+  {
+    "q": "제안(제의)하다, 암시(시사)하다",
+    "options": ["submarine", "suffer", "suggest", "support", "suppress"],
+    "correct": "suggest"
+  },
+  {
+    "q": "지지하다, 부양하다, 받치다",
+    "options": ["submarine", "suffer", "suggest", "support", "suppress"],
+    "correct": "support"
+  },
+  {
+    "q": "진압하다, 참다, 억누르다",
+    "options": ["submarine", "suffer", "suggest", "support", "suppress"],
+    "correct": "suppress"
+  },
+  {
+    "q": "잠재의식(의)",
+    "options": ["subconscious", "subscribe", "submerge", "support", "subtitle"],
+    "correct": "subconscious"
+  },
+  {
+    "q": "(신문, 잡지등을) (정기) 구독하다",
+    "options": ["subconscious", "subscribe", "submerge", "support", "subtitle"],
+    "correct": "subscribe"
+  },
+  {
+    "q": "잠수하다, 잠기다",
+    "options": ["subconscious", "subscribe", "submerge", "suggest", "subtitle"],
+    "correct": "submerge"
+  },
+  {
+    "q": "부제(를 달다); (영화 등의) 자막",
+    "options": ["subconscious", "subscribe", "submerge", "support", "subtitle"],
+    "correct": "subtitle"
+  },
+  {
+    "q": "항생제, 항생 물질",
+    "options": ["antibiotic", "antibody", "antarctic", "anticipate", "antique"],
+    "correct": "antibiotic"
+  },
+  {
+    "q": "항체",
+    "options": ["antibiotic", "advance", "antarctic", "anticipate", "antibody"],
+    "correct": "antibody"
+  },
+  {
+    "q": "남극의",
+    "options": ["antibiotic", "antibody", "antarctic", "ancient", "antique"],
+    "correct": "antarctic"
+  },
+  {
+    "q": "예상하다, 예측하다",
+    "options": ["antibiotic", "antibody", "antarctic", "anticipate", "antique"],
+    "correct": "anticipate"
+  },
+  {
+    "q": "고대의, 옛날의",
+    "options": ["antibiotic", "antibody", "antarctic", "anticipate", "antique"],
+    "correct": "antique"
+  },
+  {
+    "q": "유리한 조건(입장), 이점",
+    "options": ["ancient", "advantage", "ancestor", "anticipate", "antique"],
+    "correct": "advantage"
+  },
+  {
+    "q": "조상, 선조",
+    "options": ["ancient", "advantage", "ancestor", "anticipate", "antique"],
+    "correct": "ancestor"
+  },
+  {
+    "q": "고대의, 옛날의",
+    "options": ["ancient", "advantage", "ancestor", "advance", "antique"],
+    "correct": "ancient"
+  },
+  {
+    "q": "전진(하다), 진보(하다)",
+    "options": ["ancient", "advantage", "ancestor", "advance", "antique"],
+    "correct": "advance"
+  }
+]
