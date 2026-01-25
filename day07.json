@@ -1,0 +1,133 @@
+[
+  {
+    "q": "결합하다; 결합되다",
+    "options": ["combine", "company", "compile", "compose", "compromise"],
+    "correct": "combine"
+  },
+  {
+    "q": "회사, 친구, 동료",
+    "options": ["combine", "company", "compile", "compose", "compromise"],
+    "correct": "company"
+  },
+  {
+    "q": "편집(편찬)하다, (자료를) 수집하다",
+    "options": ["combine", "company", "compile", "compose", "compromise"],
+    "correct": "compile"
+  },
+  {
+    "q": "구성하다, 작곡하다, (글을) 쓰다",
+    "options": ["combine", "company", "compile", "compose", "compromise"],
+    "correct": "compose"
+  },
+  {
+    "q": "타협(절충), 타협하다",
+    "options": ["combine", "company", "compile", "compose", "compromise"],
+    "correct": "compromise"
+  },
+  {
+    "q": "불평하다, 항의하다",
+    "options": ["complain", "conform", "confront", "confirm", "condense"],
+    "correct": "complain"
+  },
+  {
+    "q": "(관습/법등에) 순응하다, 따르다",
+    "options": ["complain", "conform", "confront", "confirm", "condense"],
+    "correct": "conform"
+  },
+  {
+    "q": "(어려움등에) 직면하다, ~에 맞서다",
+    "options": ["complain", "conform", "confront", "confirm", "condense"],
+    "correct": "confront"
+  },
+  {
+    "q": "싸우다, 전투",
+    "options": ["confess", "conform", "confront", "confirm", "combat"],
+    "correct": "combat"
+  },
+  {
+    "q": "인정하다, 시인하다, 고백하다",
+    "options": ["confess", "conform", "confront", "confirm", "combat"],
+    "correct": "confess"
+  },
+  {
+    "q": "(예약등을) 확인하다",
+    "options": ["complain", "conform", "confront", "confirm", "condense"],
+    "correct": "confirm"
+  },
+  {
+    "q": "농축(응축)시키다",
+    "options": ["complain", "conform", "confront", "confirm", "condense"],
+    "correct": "condense"
+  },
+  {
+    "q": "대응하다, 일치(부합)하다",
+    "options": ["correspond", "collapse", "compromise", "confirm", "condense"],
+    "correct": "correspond"
+  },
+  {
+    "q": "붕괴되다, 쓰러지다, 붕괴",
+    "options": [
+      "correspond",
+      "collapse",
+      "confront",
+      "consideration",
+      "condense"
+    ],
+    "correct": "collapse"
+  },
+  {
+    "q": "교향곡, 심포니",
+    "options": ["symphony", "synthetic", "sympathy", "synthesize", "symbol"],
+    "correct": "symphony"
+  },
+  {
+    "q": "합성의, 인조의",
+    "options": ["symphony", "synthetic", "sympathy", "synthesize", "symbol"],
+    "correct": "synthetic"
+  },
+  {
+    "q": "멀티미디어(의)",
+    "options": ["multimedia", "multiplay", "multiply", "multitude", "multiple"],
+    "correct": "multimedia"
+  },
+  {
+    "q": "다수의, 다양한, 배수의",
+    "options": ["multimedia", "multiplay", "multiply", "multitude", "multiple"],
+    "correct": "multiple"
+  },
+  {
+    "q": "곱하다, 증가시키다",
+    "options": ["multimedia", "multiplay", "multiply", "multitude", "multiple"],
+    "correct": "multiply"
+  },
+  {
+    "q": "다수, 군중",
+    "options": ["multimedia", "multiplay", "multiply", "multitude", "multiple"],
+    "correct": "multitude"
+  },
+  {
+    "q": "(액체/기체를) 흡수하다",
+    "options": ["absorb", "abnormal", "absolute", "absurd", "abandon"],
+    "correct": "absorb"
+  },
+  {
+    "q": "비정상적인",
+    "options": ["absorb", "abnormal", "absolute", "absurd", "abandon"],
+    "correct": "abnormal"
+  },
+  {
+    "q": "완전한, 전적인, 절대적인",
+    "options": ["absorb", "abnormal", "absolute", "absurd", "abandon"],
+    "correct": "absolute"
+  },
+  {
+    "q": "어리석은, 터무니없는",
+    "options": ["absorb", "abnormal", "absolute", "absurd", "abandon"],
+    "correct": "absurd"
+  },
+  {
+    "q": "(부정적)폭력성을 띤 다수의 무리",
+    "options": ["mob", "crowd", "multitude", "group", "throng"],
+    "correct": "mob"
+  }
+]
