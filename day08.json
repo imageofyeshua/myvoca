@@ -1,0 +1,213 @@
+[
+  {
+    "q": "~할 수 있게 하다, 가능하게 하다",
+    "options": ["enable", "enforce", "enhance", "enlarge", "enrich"],
+    "correct": "enable"
+  },
+  {
+    "q": "(법률등을) 시행하다, 강요하다",
+    "options": ["enable", "enforce", "enhance", "enlarge", "enrich"],
+    "correct": "enforce"
+  },
+  {
+    "q": "(질/가치등) 향상시키다",
+    "options": ["enable", "enforce", "enhance", "enlarge", "enrich"],
+    "correct": "enhance"
+  },
+  {
+    "q": "크게하다, 확장하다",
+    "options": ["enable", "enforce", "enhance", "enlarge", "enrich"],
+    "correct": "enlarge"
+  },
+  {
+    "q": "풍부하게 하다, 부유하게 하다",
+    "options": ["enable", "enforce", "enhance", "enlarge", "enrich"],
+    "correct": "enrich"
+  },
+  {
+    "q": "자격(권리)를 주다, 표제를 붙히다",
+    "options": ["entitle", "encounter", "enclose", "engage", "embrace"],
+    "correct": "entitle"
+  },
+  {
+    "q": "(물건/장소를) 둘러싸다, 동봉하다",
+    "options": ["entitle", "encounter", "enclose", "engage", "embrace"],
+    "correct": "enclose"
+  },
+  {
+    "q": "직면하다, 우연히 만나다",
+    "options": ["entitle", "encounter", "enclose", "engage", "embrace"],
+    "correct": "encounter"
+  },
+  {
+    "q": "참여하다, 종사시키다, 약속하다, 약혼하다",
+    "options": ["entitle", "encounter", "enclose", "engage", "embrace"],
+    "correct": "engage"
+  },
+  {
+    "q": "껴안다, 수락하다, 받아들이다",
+    "options": ["entitle", "encounter", "enclose", "engage", "embrace"],
+    "correct": "embrace"
+  },
+  {
+    "q": "망원경",
+    "options": [
+      "telescope",
+      "television",
+      "telebanking",
+      "telepathy",
+      "telephone"
+    ],
+    "correct": "telescope"
+  },
+  {
+    "q": "사인, 자필 서명",
+    "options": [
+      "autograph",
+      "autobiography",
+      "automobile",
+      "autocracy",
+      "automatic"
+    ],
+    "correct": "autograph"
+  },
+  {
+    "q": "자서전(自敍傳)",
+    "options": [
+      "autograph",
+      "autobiography",
+      "automobile",
+      "autocracy",
+      "automatic"
+    ],
+    "correct": "autobiography"
+  },
+  {
+    "q": "자동차(의)",
+    "options": [
+      "autograph",
+      "autobiography",
+      "automobile",
+      "autocracy",
+      "automatic"
+    ],
+    "correct": "automobile"
+  },
+  {
+    "q": "(혼자만의 힘) 독재정치",
+    "options": [
+      "autograph",
+      "autobiography",
+      "automobile",
+      "autocracy",
+      "automatic"
+    ],
+    "correct": "autocracy"
+  },
+  {
+    "q": "(스스로 움직이는) 자동(自動)인",
+    "options": [
+      "autograph",
+      "autobiography",
+      "automobile",
+      "autocracy",
+      "automatic"
+    ],
+    "correct": "automatic"
+  },
+  {
+    "q": "(스스로의 법으로) 자치(권)",
+    "options": [
+      "autonomy",
+      "autobiography",
+      "automobile",
+      "autocracy",
+      "automatic"
+    ],
+    "correct": "autonomy"
+  },
+  {
+    "q": "완전(무결)한, 완벽하게 하다",
+    "options": ["perfect", "permanent", "persevere", "perseverance", "persist"],
+    "correct": "perfect"
+  },
+  {
+    "q": "영구적인, 불변의",
+    "options": ["perfect", "permanent", "persevere", "perseverance", "persist"],
+    "correct": "permanent"
+  },
+  {
+    "q": "(끈질기게) 노력하다, 인내하다",
+    "options": ["perfect", "permanent", "persevere", "perseverance", "persist"],
+    "correct": "persevere"
+  },
+  {
+    "q": "끈기, 인내(력)",
+    "options": ["perfect", "permanent", "persevere", "perseverance", "persist"],
+    "correct": "perseverance"
+  },
+  {
+    "q": "계속 ~하다, 고집하다, 지속하다",
+    "options": [
+      "persist",
+      "persuade",
+      "perspective",
+      "persistence",
+      "perceive"
+    ],
+    "correct": "persist"
+  },
+  {
+    "q": "고집, 지속성",
+    "options": [
+      "persist",
+      "persuade",
+      "perspective",
+      "persistence",
+      "perceive"
+    ],
+    "correct": "persistence"
+  },
+  {
+    "q": "설득하다, 납득시키다",
+    "options": [
+      "persist",
+      "persuade",
+      "perspective",
+      "persistence",
+      "perceive"
+    ],
+    "correct": "persuade"
+  },
+  {
+    "q": "관점, 시각, 견해",
+    "options": [
+      "persist",
+      "persuade",
+      "perspective",
+      "persistence",
+      "perceive"
+    ],
+    "correct": "perspective"
+  },
+  {
+    "q": "분리된, 갈라진, 분리하다, 갈라놓다",
+    "options": ["separate", "secure", "security", "select", "selective"],
+    "correct": "separate"
+  },
+  {
+    "q": "안전한, 확실한, 확보하다",
+    "options": ["separate", "secure", "security", "select", "selective"],
+    "correct": "secure"
+  },
+  {
+    "q": "안전, 보안",
+    "options": ["separate", "secure", "security", "select", "selective"],
+    "correct": "security"
+  },
+  {
+    "q": "선택하다, 고르다",
+    "options": ["separate", "secure", "security", "select", "selective"],
+    "correct": "select"
+  }
+]
