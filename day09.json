@@ -1,0 +1,132 @@
+[
+  {
+    "q": "맞추다, 조정(조절)하다",
+    "options": ["adjust", "accompany", "account", "accumulate", "accustomed"],
+    "correct": "adjust"
+  },
+  {
+    "q": "~와 동행하다",
+    "options": ["adjust", "accompany", "account", "accumulate", "accustomed"],
+    "correct": "accompany"
+  },
+  {
+    "q": "계좌, 설명, ~의 이유를 밝히다",
+    "options": ["adjust", "accompany", "account", "accumulate", "accustomed"],
+    "correct": "account"
+  },
+  {
+    "q": "모으다, 축적하다",
+    "options": ["adjust", "accompany", "account", "accumulate", "accustomed"],
+    "correct": "accumulate"
+  },
+  {
+    "q": "익숙해진",
+    "options": ["adjust", "accompany", "account", "accumulate", "accustomed"],
+    "correct": "accustomed"
+  },
+  {
+    "q": "임명(지정)하다",
+    "options": ["appoint", "approach", "await", "abandon", "arrogant"],
+    "correct": "appoint"
+  },
+  {
+    "q": "~에 접근하다",
+    "options": ["appoint", "approach", "await", "abandon", "arrogant"],
+    "correct": "approach"
+  },
+  {
+    "q": "기다리다, 대기하다",
+    "options": ["appoint", "approach", "await", "abandon", "arrogant"],
+    "correct": "await"
+  },
+  {
+    "q": "버리다, 떠나다",
+    "options": ["appoint", "approach", "await", "abandon", "arrogant"],
+    "correct": "abandon"
+  },
+  {
+    "q": "거만한, 오만한",
+    "options": ["appoint", "approach", "await", "abandon", "arrogant"],
+    "correct": "arrogant"
+  },
+  {
+    "q": "탑승(승선)하여",
+    "options": ["aboard", "abroad", "alike", "arise", "arouse"],
+    "correct": "aboard"
+  },
+  {
+    "q": "외국에, 해외로",
+    "options": ["aboard", "abroad", "alike", "arise", "arouse"],
+    "correct": "abroad"
+  },
+  {
+    "q": "비슷한, 서로같은",
+    "options": ["aboard", "abroad", "alike", "arise", "arouse"],
+    "correct": "alike"
+  },
+  {
+    "q": "발생하다, 생기다",
+    "options": ["aboard", "abroad", "alike", "arise", "arouse"],
+    "correct": "arise"
+  },
+  {
+    "q": "(감정을) 불러 일으키다",
+    "options": ["aboard", "abroad", "alike", "arise", "arouse"],
+    "correct": "arouse"
+  },
+  {
+    "q": "깜짝 놀라게 하다",
+    "options": ["amaze", "ashamed", "afford", "advocate", "accelerate"],
+    "correct": "amaze"
+  },
+  {
+    "q": "부끄러워하는, 창피한",
+    "options": ["amaze", "ashamed", "afford", "advocate", "accelerate"],
+    "correct": "ashamed"
+  },
+  {
+    "q": "~할 여유가 있다",
+    "options": ["amaze", "ashamed", "afford", "advocate", "accelerate"],
+    "correct": "afford"
+  },
+  {
+    "q": "(약속등) 철회하다, 인출하다",
+    "options": ["withdraw", "withhold", "withstand", "without", "within"],
+    "correct": "withdraw"
+  },
+  {
+    "q": "(꼭 쥐고) 주지 않다, 유보하다",
+    "options": ["withdraw", "withhold", "withstand", "without", "within"],
+    "correct": "withhold"
+  },
+  {
+    "q": "저항하다, 견디다",
+    "options": ["withdraw", "withhold", "withstand", "without", "within"],
+    "correct": "withstand"
+  },
+  {
+    "q": "지리학",
+    "options": ["geography", "geology", "geometry", "geologist", "geophysics"],
+    "correct": "geography"
+  },
+  {
+    "q": "지질학",
+    "options": ["geography", "geology", "geometry", "geologist", "geophysics"],
+    "correct": "geology"
+  },
+  {
+    "q": "기하학",
+    "options": ["geography", "geology", "geometry", "geologist", "geophysics"],
+    "correct": "geometry"
+  },
+  {
+    "q": "옹호하다, 옹호자",
+    "options": ["adapt", "adoption", "addiction", "advocate", "accelerate"],
+    "correct": "advocate"
+  },
+  {
+    "q": "가속화하다",
+    "options": ["adapt", "adoption", "addiction", "advocate", "accelerate"],
+    "correct": "accelerate"
+  }
+]
