@@ -1,0 +1,143 @@
+[
+  {
+    "q": "~와 반대의, 반대(되는 것)",
+    "options": [
+      "contrary",
+      "contrast",
+      "controversy",
+      "counterattack",
+      "counterfeit"
+    ],
+    "correct": "contrary"
+  },
+  {
+    "q": "대조(를 이루다)",
+    "options": [
+      "contrary",
+      "contrast",
+      "controversy",
+      "counterattack",
+      "counterfeit"
+    ],
+    "correct": "contrast"
+  },
+  {
+    "q": "논쟁, 언쟁",
+    "options": [
+      "contrary",
+      "contrast",
+      "controversy",
+      "counterattack",
+      "counterfeit"
+    ],
+    "correct": "controversy"
+  },
+  {
+    "q": "반격(하다), 역습(하다)",
+    "options": [
+      "contrary",
+      "contrast",
+      "controversy",
+      "counterattack",
+      "counterfeit"
+    ],
+    "correct": "counterattack"
+  },
+  {
+    "q": "위조의, 가짜의, 위조하다",
+    "options": [
+      "contrary",
+      "contrast",
+      "controversy",
+      "counterattack",
+      "counterfeit"
+    ],
+    "correct": "counterfeit"
+  },
+  {
+    "q": "대응하는 사람; 상대방",
+    "options": [
+      "counterpart",
+      "counteract",
+      "controversial",
+      "countermeasure",
+      "counterproductive"
+    ],
+    "correct": "counterpart"
+  },
+  {
+    "q": "(혼자서만 하는) 긴 이야기, 독백",
+    "options": ["monologue", "monopoly", "monotheism", "monorail", "monotone"],
+    "correct": "monologue"
+  },
+  {
+    "q": "(노동) 조합, 결합, 연합",
+    "options": ["union", "unify", "unique", "unite", "unit"],
+    "correct": "union"
+  },
+  {
+    "q": "독특한, 유일무이한",
+    "options": ["union", "unify", "unique", "unite", "unit"],
+    "correct": "unique"
+  },
+  {
+    "q": "(갈라져 있던 것을 하나로) 통일하다",
+    "options": ["union", "unify", "unique", "unite", "unit"],
+    "correct": "unify"
+  },
+  {
+    "q": "(본래 개별적인 것들을) 연합하다",
+    "options": ["union", "unify", "unique", "unite", "unit"],
+    "correct": "unite"
+  },
+  {
+    "q": "단일체, 한 개",
+    "options": ["union", "unify", "unique", "unite", "unit"],
+    "correct": "unit"
+  },
+  {
+    "q": "우주, 만물",
+    "options": ["uniform", "unify", "unique", "unification", "universe"],
+    "correct": "universe"
+  },
+  {
+    "q": "2개 국어를 구사할 수 있는",
+    "options": ["bilingual", "balance", "duplicate", "twilight", "twist"],
+    "correct": "bilingual"
+  },
+  {
+    "q": "균형, 평형, 잔액",
+    "options": ["bilingual", "balance", "duplicate", "twilight", "twist"],
+    "correct": "balance"
+  },
+  {
+    "q": "복사(복제)하다",
+    "options": ["bilingual", "balance", "duplicate", "twilight", "twist"],
+    "correct": "duplicate"
+  },
+  {
+    "q": "황혼, 땅거미, 어스름",
+    "options": ["bilingual", "balance", "duplicate", "twilight", "twist"],
+    "correct": "twilight"
+  },
+  {
+    "q": "비틀기, 왜곡하다",
+    "options": ["bilingual", "balance", "duplicate", "twilight", "twist"],
+    "correct": "twist"
+  },
+  {
+    "q": "삼각형",
+    "options": ["triangle", "rectangle", "pentagon", "heptagon", "hexagon"],
+    "correct": "triangle"
+  },
+  {
+    "q": "부족, 종족",
+    "options": ["triangle", "rectangle", "trivial", "tribe", "tribute"],
+    "correct": "tribe"
+  },
+  {
+    "q": "사소한, 하찮은",
+    "options": ["triangle", "rectangle", "trivial", "tribe", "tribute"],
+    "correct": "trivial"
+  }
+]
