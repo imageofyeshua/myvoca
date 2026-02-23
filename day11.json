@@ -1,0 +1,13 @@
+[
+  {
+    "q": "면접관, 인터뷰 진행자",
+    "options": [
+      "interviewer",
+      "interviewee",
+      "inventor",
+      "supervisor",
+      "assistant"
+    ],
+    "correct": "contrary"
+  }
+]
