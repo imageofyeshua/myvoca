@@ -8,6 +8,352 @@
       "comparative",
       "considerable"
     ],
-    "correct": "contrary"
+    "correct": "childish"
+  },
+  {
+    "q": "천진난만한",
+    "options": [
+      "childish",
+      "childlike",
+      "comparable",
+      "comparative",
+      "considerable"
+    ],
+    "correct": "childlike"
+  },
+  {
+    "q": "비교될 만한, 비슷한",
+    "options": [
+      "childish",
+      "childlike",
+      "comparable",
+      "comparative",
+      "considerable"
+    ],
+    "correct": "comparable"
+  },
+  {
+    "q": "비교의, 상대적인",
+    "options": [
+      "childish",
+      "childlike",
+      "comparable",
+      "comparative",
+      "considerable"
+    ],
+    "correct": "comparative"
+  },
+  {
+    "q": "(양/정도가) 상당한, 많은",
+    "options": [
+      "childish",
+      "childlike",
+      "considerate",
+      "comparative",
+      "considerable"
+    ],
+    "correct": "considerable"
+  },
+  {
+    "q": "사려 깊은, 배려하는",
+    "options": [
+      "considerate",
+      "continual",
+      "continuous",
+      "considerable",
+      "economical"
+    ],
+    "correct": "considerate"
+  },
+  {
+    "q": "반복(거듭)되는 ",
+    "options": [
+      "considerate",
+      "continual",
+      "continuous",
+      "childish",
+      "economical"
+    ],
+    "correct": "continual"
+  },
+  {
+    "q": "계속적인",
+    "options": [
+      "considerate",
+      "continual",
+      "continuous",
+      "econimic",
+      "economical"
+    ],
+    "correct": "continuous"
+  },
+  {
+    "q": "경제(학)의",
+    "options": [
+      "considerate",
+      "continual",
+      "continuous",
+      "economic",
+      "economical"
+    ],
+    "correct": "economic"
+  },
+  {
+    "q": "절약이 되는, 경제적인",
+    "options": [
+      "considerate",
+      "continual",
+      "continuous",
+      "economic",
+      "economical"
+    ],
+    "correct": "economical"
+  },
+  {
+    "q": "역사적으로 중요한",
+    "options": [
+      "historic",
+      "historical",
+      "intellectual",
+      "intelligent",
+      "intelligence"
+    ],
+    "correct": "historic"
+  },
+  {
+    "q": "역사(상)의",
+    "options": [
+      "historic",
+      "historical",
+      "intellectual",
+      "intelligent",
+      "intelligence"
+    ],
+    "correct": "historical"
+  },
+  {
+    "q": "지적인, 지성의",
+    "options": [
+      "historic",
+      "historical",
+      "intellectual",
+      "intelligent",
+      "intelligence"
+    ],
+    "correct": "intellectual"
+  },
+  {
+    "q": "영리한, 총명한",
+    "options": [
+      "historic",
+      "historical",
+      "intellectual",
+      "intelligent",
+      "intelligence"
+    ],
+    "correct": "intelligent"
+  },
+  {
+    "q": "존경할 만한, 훌륭한",
+    "options": ["respectable", "respectful", "sensible", "sensitive", "social"],
+    "correct": "respectable"
+  },
+  {
+    "q": "존경하는, 공손한",
+    "options": ["respectable", "respectful", "sensible", "sensitive", "social"],
+    "correct": "respectful"
+  },
+  {
+    "q": "분별(지각)있는, 현명한",
+    "options": ["respectable", "respectful", "sensible", "sensitive", "social"],
+    "correct": "sensible"
+  },
+  {
+    "q": "섬세한, 예민한",
+    "options": ["respectable", "respectful", "sensible", "sensitive", "social"],
+    "correct": "sensitive"
+  },
+  {
+    "q": "사회의, 사회적인",
+    "options": ["sociable", "respectful", "society", "sensitive", "social"],
+    "correct": "social"
+  },
+  {
+    "q": "사교적인, 붙임성 있는",
+    "options": ["sociable", "respectful", "society", "sensitive", "social"],
+    "correct": "sociable"
+  },
+  {
+    "q": "성공적인, 출세한",
+    "options": ["successful", "successive", "succeed", "sensitive", "social"],
+    "correct": "successful"
+  },
+  {
+    "q": "연속(계속)적인",
+    "options": ["successful", "successive", "succeed", "sensitive", "social"],
+    "correct": "successive"
+  },
+  {
+    "q": "글자 그대로의",
+    "options": ["literal", "literature", "literary", "literate", "liberate"],
+    "correct": "literal"
+  },
+  {
+    "q": "문학의, 문예의",
+    "options": ["literal", "literature", "literary", "literate", "liberate"],
+    "correct": "literary"
+  },
+  {
+    "q": "읽고 쓸 줄 아는",
+    "options": ["literal", "literature", "literary", "literate", "liberate"],
+    "correct": "literate"
+  },
+  {
+    "q": "상상할 수 있는",
+    "options": ["imaginable", "imagine", "imaginary", "imaginative", "image"],
+    "correct": "imaginable"
+  },
+  {
+    "q": "상상력이 풍부한, 창의적인",
+    "options": ["imaginable", "imagine", "imaginary", "imaginative", "image"],
+    "correct": "imaginative"
+  },
+  {
+    "q": "상상속에 존재하는",
+    "options": ["imaginable", "imagine", "imaginary", "imaginative", "image"],
+    "correct": "imaginary"
+  },
+  {
+    "q": "후회하는",
+    "options": [
+      "regretful",
+      "regrettable",
+      "regret",
+      "industrial",
+      "industrious"
+    ],
+    "correct": "regretful"
+  },
+  {
+    "q": "(상황/사건이) 유감스러운",
+    "options": [
+      "regretful",
+      "regrettable",
+      "regret",
+      "industrial",
+      "industrious"
+    ],
+    "correct": "regrettable"
+  },
+  {
+    "q": "산업의",
+    "options": [
+      "regretful",
+      "regrettable",
+      "industry",
+      "industrial",
+      "industrious"
+    ],
+    "correct": "industrial"
+  },
+  {
+    "q": "근면한",
+    "options": [
+      "regretful",
+      "regrettable",
+      "industry",
+      "industrial",
+      "industrious"
+    ],
+    "correct": "industrious"
+  },
+  {
+    "q": "호의적인, 찬성하는",
+    "options": ["favorable", "favorite", "reliable", "visible", "hopeful"],
+    "correct": "favorable"
+  },
+  {
+    "q": "의지할 수 있는, 믿을 만한",
+    "options": ["favorable", "favorite", "reliable", "visible", "hopeful"],
+    "correct": "reliable"
+  },
+  {
+    "q": "눈에 보이는, 뚜렷한",
+    "options": ["favorable", "favorite", "reliable", "visible", "hopeful"],
+    "correct": "visible"
+  },
+  {
+    "q": "희망에 찬, 기대하는",
+    "options": ["favorable", "favorite", "reliable", "visible", "hopeful"],
+    "correct": "hopeful"
+  },
+  {
+    "q": "의심스러운, 확신이 없는",
+    "options": ["doubtful", "forceful", "basic", "characteristic", "typical"],
+    "correct": "doubtful"
+  },
+  {
+    "q": "(사람/말등이) 강력한, 힘이 있는",
+    "options": ["doubtful", "forceful", "basic", "characteristic", "typical"],
+    "correct": "forceful"
+  },
+  {
+    "q": "기초적인, 기본적인",
+    "options": ["doubtful", "forceful", "basic", "characteristic", "typical"],
+    "correct": "basic"
+  },
+  {
+    "q": "특징적인, 독특한, 특징",
+    "options": ["doubtful", "forceful", "basic", "characteristic", "typical"],
+    "correct": "characteristic"
+  },
+  {
+    "q": "전형적인",
+    "options": ["doubtful", "forceful", "basic", "characteristic", "typical"],
+    "correct": "typical"
+  },
+  {
+    "q": "친근한",
+    "options": [
+      "familiar",
+      "peculiar",
+      "supplementary",
+      "satisfactory",
+      "strange"
+    ],
+    "correct": "familiar"
+  },
+  {
+    "q": "기이한, 독특한",
+    "options": [
+      "familiar",
+      "peculiar",
+      "supplementary",
+      "satisfactory",
+      "strange"
+    ],
+    "correct": "peculiar"
+  },
+  {
+    "q": "보충의",
+    "options": [
+      "familiar",
+      "peculiar",
+      "supplementary",
+      "satisfactory",
+      "strange"
+    ],
+    "correct": "supplementary"
+  },
+  {
+    "q": "충분한, 만족스러운",
+    "options": [
+      "familiar",
+      "peculiar",
+      "supplementary",
+      "satisfactory",
+      "strange"
+    ],
+    "correct": "satisfactory"
   }
 ]
