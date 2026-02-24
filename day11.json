@@ -8,6 +8,420 @@
       "supervisor",
       "assistant"
     ],
-    "correct": "contrary"
+    "correct": "interviewer"
+  },
+  {
+    "q": "면접[인터뷰] 대상자",
+    "options": [
+      "interviewer",
+      "interviewee",
+      "inventor",
+      "supervisor",
+      "assistant"
+    ],
+    "correct": "interviewee"
+  },
+  {
+    "q": "발명가",
+    "options": [
+      "interviewer",
+      "interviewee",
+      "inventor",
+      "supervisor",
+      "assistant"
+    ],
+    "correct": "inventor"
+  },
+  {
+    "q": "감독관, 관리자",
+    "options": [
+      "interviewer",
+      "interviewee",
+      "inventor",
+      "supervisor",
+      "assistant"
+    ],
+    "correct": "supervisor"
+  },
+  {
+    "q": "보조자, 조수",
+    "options": [
+      "interviewer",
+      "interviewee",
+      "inventor",
+      "supervisor",
+      "assistant"
+    ],
+    "correct": "assistant"
+  },
+  {
+    "q": "시중드는 사람, 수행원",
+    "options": [
+      "attendant",
+      "servant",
+      "resident",
+      "journalist",
+      "psychologist"
+    ],
+    "correct": "attendant"
+  },
+  {
+    "q": "하인",
+    "options": [
+      "attendant",
+      "servant",
+      "resident",
+      "journalist",
+      "psychologist"
+    ],
+    "correct": "servant"
+  },
+  {
+    "q": "거주자, 살고 있는",
+    "options": [
+      "attendant",
+      "servant",
+      "resident",
+      "journalist",
+      "psychologist"
+    ],
+    "correct": "resident"
+  },
+  {
+    "q": "언론인, 기자",
+    "options": [
+      "attendant",
+      "servant",
+      "resident",
+      "journalist",
+      "psychologist"
+    ],
+    "correct": "journalist"
+  },
+  {
+    "q": "심리학자",
+    "options": [
+      "attendant",
+      "servant",
+      "resident",
+      "journalist",
+      "psychologist"
+    ],
+    "correct": "psychologist"
+  },
+  {
+    "q": "친척, 인척; 상대적인",
+    "options": [
+      "relative",
+      "representative",
+      "boundary",
+      "secretary",
+      "missionary"
+    ],
+    "correct": "relative"
+  },
+  {
+    "q": "대표자, 대리인",
+    "options": [
+      "relative",
+      "representative",
+      "boundary",
+      "secretary",
+      "missionary"
+    ],
+    "correct": "representative"
+  },
+  {
+    "q": "경계선",
+    "options": [
+      "relative",
+      "representative",
+      "boundary",
+      "secretary",
+      "missionary"
+    ],
+    "correct": "boundary"
+  },
+  {
+    "q": "비서",
+    "options": [
+      "relative",
+      "representative",
+      "boundary",
+      "secretary",
+      "missionary"
+    ],
+    "correct": "secretary"
+  },
+  {
+    "q": "선교사, 전도자",
+    "options": [
+      "relative",
+      "representative",
+      "boundary",
+      "secretary",
+      "missionary"
+    ],
+    "correct": "missionary"
+  },
+  {
+    "q": "경제학",
+    "options": ["economics", "politics", "physics", "appearance", "conference"],
+    "correct": "economics"
+  },
+  {
+    "q": "정치(학)",
+    "options": ["economics", "politics", "physics", "appearance", "conference"],
+    "correct": "politics"
+  },
+  {
+    "q": "물리학",
+    "options": ["economics", "politics", "physics", "appearance", "conference"],
+    "correct": "physics"
+  },
+  {
+    "q": "외모, 외관",
+    "options": ["economics", "politics", "physics", "appearance", "conference"],
+    "correct": "appearance"
+  },
+  {
+    "q": "회담[회견], 회의[협의회]",
+    "options": ["economics", "politics", "physics", "appearance", "conference"],
+    "correct": "conference"
+  },
+  {
+    "q": "다양성",
+    "options": ["variety", "ability", "authority", "discovery", "theory"],
+    "correct": "variety"
+  },
+  {
+    "q": "할수 있음, 능력",
+    "options": ["variety", "ability", "authority", "discovery", "theory"],
+    "correct": "ability"
+  },
+  {
+    "q": "권한, 권위",
+    "options": ["variety", "ability", "authority", "discovery", "theory"],
+    "correct": "authority"
+  },
+  {
+    "q": "발견",
+    "options": ["variety", "ability", "authority", "discovery", "theory"],
+    "correct": "discovery"
+  },
+  {
+    "q": "이론, 학설",
+    "options": ["variety", "ability", "authority", "discovery", "theory"],
+    "correct": "theory"
+  },
+  {
+    "q": "수술",
+    "options": ["surgery", "arrival", "proposal", "creature", "failure"],
+    "correct": "surgery"
+  },
+  {
+    "q": "도착",
+    "options": ["surgery", "arrival", "proposal", "creature", "failure"],
+    "correct": "arrival"
+  },
+  {
+    "q": "제안, 청혼",
+    "options": ["surgery", "arrival", "proposal", "creature", "failure"],
+    "correct": "proposal"
+  },
+  {
+    "q": "생물, 창조물, 인간",
+    "options": ["surgery", "arrival", "proposal", "creature", "failure"],
+    "correct": "creature"
+  },
+  {
+    "q": "실패(자), 낙제(자)",
+    "options": ["surgery", "arrival", "proposal", "creature", "failure"],
+    "correct": "failure"
+  },
+  {
+    "q": "협정, 동의, 합의",
+    "options": [
+      "agreement",
+      "assessment",
+      "document",
+      "pollution",
+      "translation"
+    ],
+    "correct": "agreement"
+  },
+  {
+    "q": "평가, 판단",
+    "options": [
+      "agreement",
+      "assessment",
+      "document",
+      "pollution",
+      "translation"
+    ],
+    "correct": "assessment"
+  },
+  {
+    "q": "서류, 문서",
+    "options": [
+      "agreement",
+      "assessment",
+      "document",
+      "pollution",
+      "translation"
+    ],
+    "correct": "document"
+  },
+  {
+    "q": "오염, 공해",
+    "options": [
+      "agreement",
+      "assessment",
+      "document",
+      "pollution",
+      "translation"
+    ],
+    "correct": "pollution"
+  },
+  {
+    "q": "번역, 통역",
+    "options": [
+      "agreement",
+      "assessment",
+      "document",
+      "pollution",
+      "translation"
+    ],
+    "correct": "translation"
+  },
+  {
+    "q": "소개, 도입",
+    "options": ["introduction", "invitation", "wealth", "weight", "witness"],
+    "correct": "introduction"
+  },
+  {
+    "q": "초대",
+    "options": ["introduction", "invitation", "wealth", "weight", "witness"],
+    "correct": "invitation"
+  },
+  {
+    "q": "부, 재산, 풍부함",
+    "options": ["introduction", "invitation", "wealth", "weight", "witness"],
+    "correct": "wealth"
+  },
+  {
+    "q": "무게, 체중",
+    "options": ["introduction", "invitation", "wealth", "weight", "witness"],
+    "correct": "weight"
+  },
+  {
+    "q": "목격자, 증인",
+    "options": ["introduction", "invitation", "wealth", "weight", "witness"],
+    "correct": "witness"
+  },
+  {
+    "q": "건강(함), 적절함",
+    "options": ["fitness", "accuracy", "privacy", "citizenship", "leadership"],
+    "correct": "fitness"
+  },
+  {
+    "q": "정확(성), 정밀(도)",
+    "options": ["fitness", "accuracy", "privacy", "citizenship", "leadership"],
+    "correct": "accuracy"
+  },
+  {
+    "q": "사생활",
+    "options": ["fitness", "accuracy", "privacy", "citizenship", "leadership"],
+    "correct": "privacy"
+  },
+  {
+    "q": "시민권",
+    "options": ["fitness", "accuracy", "privacy", "citizenship", "leadership"],
+    "correct": "citizenship"
+  },
+  {
+    "q": "통솔력, 지도력",
+    "options": ["fitness", "accuracy", "privacy", "citizenship", "leadership"],
+    "correct": "leadership"
+  },
+  {
+    "q": "유년기",
+    "options": [
+      "childhood",
+      "neighborhood",
+      "realism",
+      "optimism",
+      "criticism"
+    ],
+    "correct": "childhood"
+  },
+  {
+    "q": "이웃",
+    "options": [
+      "childhood",
+      "neighborhood",
+      "realism",
+      "optimism",
+      "criticism"
+    ],
+    "correct": "neighborhood"
+  },
+  {
+    "q": "현실주의, 사실성",
+    "options": [
+      "childhood",
+      "neighborhood",
+      "realism",
+      "optimism",
+      "criticism"
+    ],
+    "correct": "realism"
+  },
+  {
+    "q": "낙관론, 낙천주의",
+    "options": [
+      "childhood",
+      "neighborhood",
+      "realism",
+      "optimism",
+      "criticism"
+    ],
+    "correct": "optimism"
+  },
+  {
+    "q": "비판, 비평",
+    "options": [
+      "childhood",
+      "neighborhood",
+      "realism",
+      "optimism",
+      "criticism"
+    ],
+    "correct": "criticism"
+  },
+  {
+    "q": "목표, 대상",
+    "options": ["target", "booklet", "leaflet", "etiquette", "angle"],
+    "correct": "target"
+  },
+  {
+    "q": "소책자",
+    "options": ["target", "booklet", "leaflet", "etiquette", "angle"],
+    "correct": "booklet"
+  },
+  {
+    "q": "(광고용) 전단",
+    "options": ["target", "booklet", "leaflet", "etiquette", "angle"],
+    "correct": "leaflet"
+  },
+  {
+    "q": "예의",
+    "options": ["target", "booklet", "leaflet", "etiquette", "angle"],
+    "correct": "etiquette"
+  },
+  {
+    "q": "각도, 관점",
+    "options": ["target", "booklet", "leaflet", "etiquette", "angle"],
+    "correct": "angle"
   }
 ]
