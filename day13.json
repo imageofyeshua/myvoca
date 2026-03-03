@@ -1,0 +1,229 @@
+[
+  {
+    "q": "값비싼, 손실이 큰",
+    "options": ["costly", "timely", "furious", "cost", "ambitious"],
+    "correct": "costly"
+  },
+  {
+    "q": "시기적절한",
+    "options": ["costly", "timely", "furious", "time", "ambitious"],
+    "correct": "timely"
+  },
+  {
+    "q": "몹시 화가 난, 맹렬한",
+    "options": ["costly", "timely", "furious", "time", "fire"],
+    "correct": "furious"
+  },
+  {
+    "q": "야심 있는",
+    "options": ["ambitious", "timely", "furious", "fortunate", "fire"],
+    "correct": "ambitious"
+  },
+  {
+    "q": "운이 좋은",
+    "options": ["ambitious", "timely", "furious", "fortunate", "fortune"],
+    "correct": "fortunate"
+  },
+  {
+    "q": "친밀한",
+    "options": ["intimate", "intimacy", "pleasant", "violence", "urgent"],
+    "correct": "intimate"
+  },
+  {
+    "q": "즐거운, 기분 좋은",
+    "options": ["please", "intimacy", "pleasant", "violence", "urgent"],
+    "correct": "pleasant"
+  },
+  {
+    "q": "폭력적인, 난폭한",
+    "options": ["please", "intimacy", "pleasant", "violence", "violent"],
+    "correct": "violent"
+  },
+  {
+    "q": "긴급한, 다급한",
+    "options": ["urgency", "urgent", "pleasant", "emergency", "violent"],
+    "correct": "urgent"
+  },
+  {
+    "q": "어리석은",
+    "options": ["foolish", "childish", "selfish", "reddish", "yellowish"],
+    "correct": "foolish"
+  },
+  {
+    "q": "불그스름한",
+    "options": ["foolish", "childish", "selfish", "reddish", "yellowish"],
+    "correct": "reddish"
+  },
+  {
+    "q": "이기적인",
+    "options": ["foolish", "childish", "selfish", "reddish", "yellowish"],
+    "correct": "selfish"
+  },
+  {
+    "q": "이상적인",
+    "options": ["ideal", "verbal", "idea", "racial", "spiritual"],
+    "correct": "ideal"
+  },
+  {
+    "q": "언어의, 말로 된",
+    "options": ["verb", "verbal", "internal", "racial", "spiritual"],
+    "correct": "verbal"
+  },
+  {
+    "q": "내부의, 내적인",
+    "options": ["external", "verbal", "internal", "racial", "spiritual"],
+    "correct": "internal"
+  },
+  {
+    "q": "인종의, 민족의",
+    "options": ["external", "verbal", "race", "racial", "spiritual"],
+    "correct": "racial"
+  },
+  {
+    "q": "정신의, 영적인",
+    "options": ["external", "verbal", "race", "racial", "spiritual"],
+    "correct": "spiritual"
+  },
+  {
+    "q": "활동적인",
+    "options": ["active", "informative", "action", "executive", "alternative"],
+    "correct": "active"
+  },
+  {
+    "q": "(유익한)정보를 제공하는",
+    "options": [
+      "active",
+      "informative",
+      "information",
+      "inform",
+      "alternative"
+    ],
+    "correct": "informative"
+  },
+  {
+    "q": "성급한, 서두르는",
+    "options": ["active", "hasty", "gloomy", "hazy", "alter"],
+    "correct": "hasty"
+  },
+  {
+    "q": "어둑어둑한, 침울한",
+    "options": ["active", "hasty", "gloomy", "hazy", "alter"],
+    "correct": "gloomy"
+  },
+  {
+    "q": "셀 수 없는",
+    "options": ["countless", "endless", "count", "counter", "powerless"],
+    "correct": "countless"
+  },
+  {
+    "q": "끝없는",
+    "options": ["countless", "endless", "end", "counter", "powerless"],
+    "correct": "endless"
+  },
+  {
+    "q": "깨닫다, 실현하다",
+    "options": ["realize", "civilize", "socialize", "materialize", "fascinate"],
+    "correct": "realize"
+  },
+  {
+    "q": "문명화하다",
+    "options": ["citizen", "civilize", "socialize", "civil", "fascinate"],
+    "correct": "civilize"
+  },
+  {
+    "q": "매혹하다",
+    "options": ["citizen", "civilize", "socialize", "fascination", "fascinate"],
+    "correct": "fascinate"
+  },
+  {
+    "q": "좌절시키다",
+    "options": [
+      "frustrate",
+      "frustration",
+      "socialize",
+      "fascination",
+      "fascinate"
+    ],
+    "correct": "frustrate"
+  },
+  {
+    "q": "모방하다",
+    "options": ["imitation", "imitate", "image", "fascination", "fascinate"],
+    "correct": "imitate"
+  },
+  {
+    "q": "동기를 부여하다",
+    "options": ["motivate", "motive", "motion", "fascination", "fascinate"],
+    "correct": "motivate"
+  },
+  {
+    "q": "짜증나게 하다",
+    "options": ["irritate", "motive", "irritation", "motivate", "originate"],
+    "correct": "irritate"
+  },
+  {
+    "q": "비롯되다, 유래하다",
+    "options": ["irritate", "motive", "irritation", "motivate", "originate"],
+    "correct": "originate"
+  },
+  {
+    "q": "정당화하다",
+    "options": ["justify", "justification", "simplify", "modify", "justice"],
+    "correct": "justify"
+  },
+  {
+    "q": "단순화하다",
+    "options": ["justify", "strengthen", "simplify", "modify", "justice"],
+    "correct": "simplify"
+  },
+  {
+    "q": "강화하다",
+    "options": ["strong", "strengthen", "simplify", "strength", "justice"],
+    "correct": "strengthen"
+  },
+  {
+    "q": "무섭게하다",
+    "options": ["frighten", "struggle", "simplify", "wrestle", "strengthen"],
+    "correct": "frighten"
+  },
+  {
+    "q": "몸부림치다, 고군분투하다",
+    "options": ["frighten", "struggle", "simplify", "wrestle", "strengthen"],
+    "correct": "struggle"
+  },
+  {
+    "q": "몸싸움하다",
+    "options": ["frighten", "struggle", "simplify", "wrestle", "strengthen"],
+    "correct": "wrestle"
+  },
+  {
+    "q": "극도로, 극히",
+    "options": ["extremely", "rarely", "hardly", "extreme", "strengthen"],
+    "correct": "extremely"
+  },
+  {
+    "q": "드물게, 거의 ~하지 않는",
+    "options": ["extremely", "rarely", "hardly", "extreme", "strengthen"],
+    "correct": "rarely"
+  },
+  {
+    "q": "집 쪽으로",
+    "options": ["homeward", "upward", "halfway", "likewise", "otherwise"],
+    "correct": "homeward"
+  },
+  {
+    "q": "가운데쯤에",
+    "options": ["homeward", "upward", "halfway", "likewise", "otherwise"],
+    "correct": "halfway"
+  },
+  {
+    "q": "똑같이, 비슷하게",
+    "options": ["homeward", "upward", "halfway", "likewise", "otherwise"],
+    "correct": "likewise"
+  },
+  {
+    "q": "달리, 다르게",
+    "options": ["homeward", "upward", "halfway", "likewise", "otherwise"],
+    "correct": "otherwise"
+  }
+]
