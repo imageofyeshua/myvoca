@@ -1,0 +1,107 @@
+[
+  {
+    "q": "대리인, 매개물",
+    "options": ["agent", "agony", "active", "actual", "exact"],
+    "correct": "agent"
+  },
+  {
+    "q": "극심한 고통",
+    "options": ["agent", "agony", "active", "actual", "exact"],
+    "correct": "agony"
+  },
+  {
+    "q": "활동(적극)적인",
+    "options": ["agent", "action", "active", "actual", "exact"],
+    "correct": "active"
+  },
+  {
+    "q": "실제의",
+    "options": ["agent", "agony", "active", "actual", "actually"],
+    "correct": "actual"
+  },
+  {
+    "q": "정확한",
+    "options": ["exactly", "exactness", "active", "actual", "exact"],
+    "correct": "exact"
+  },
+  {
+    "q": "반응하다",
+    "options": ["react", "reaction", "ambiguous", "navigate", "altitude"],
+    "correct": "react"
+  },
+  {
+    "q": "모호한",
+    "options": ["ambiguity", "reaction", "ambiguous", "navigate", "altitude"],
+    "correct": "ambiguous"
+  },
+  {
+    "q": "길을 찾다, 항해하다",
+    "options": ["ambiguity", "navigation", "navy", "navigate", "altitude"],
+    "correct": "navigate"
+  },
+  {
+    "q": "고도, 높이, 해발",
+    "options": ["ambiguity", "navigation", "navy", "navigate", "altitude"],
+    "correct": "altitude"
+  },
+  {
+    "q": "폐지하다",
+    "options": ["abolish", "adolescent", "alter", "alternative", "altar"],
+    "correct": "abolish"
+  },
+  {
+    "q": "사춘기 청소년(의)",
+    "options": ["adolescence", "adolescent", "alter", "alternative", "altar"],
+    "correct": "adolescent"
+  },
+  {
+    "q": "바꾸다, 변하다",
+    "options": ["adolescence", "adolescent", "alter", "alternative", "altar"],
+    "correct": "alter"
+  },
+  {
+    "q": "대안의, 대체할 수 있는",
+    "options": ["alternate", "adolescent", "alter", "alternative", "altar"],
+    "correct": "alternative"
+  },
+  {
+    "q": "외국(인)의",
+    "options": ["alternate", "alienate", "alter", "alternative", "alien"],
+    "correct": "alien"
+  },
+  {
+    "q": "(옥죄는) 고통, 고뇌",
+    "options": ["anguish", "anxious", "anxiety", "anniversary", "annual"],
+    "correct": "anguish"
+  },
+  {
+    "q": "걱정하는, 불안해하는",
+    "options": ["anguish", "anxious", "anxiety", "anniversary", "annual"],
+    "correct": "anxious"
+  },
+  {
+    "q": "(해마다 있는) 기념일",
+    "options": ["anguish", "anxious", "anxiety", "anniversary", "annual"],
+    "correct": "anniversary"
+  },
+  {
+    "q": "해마다의, 일 년(간)의",
+    "options": ["anguish", "anxious", "anxiety", "anniversary", "annual"],
+    "correct": "annual"
+  },
+  {
+    "q": "~하는 경향이 있는 ~하기 쉬운",
+    "options": ["apt", "adapt", "aptitude", "adaptation", "adopt"],
+    "correct": "apt"
+  },
+  {
+    "q": "적합하게하다, 적응하다",
+    "options": ["apt", "adapt", "aptitude", "adaptation", "adopt"],
+    "correct": "adapt"
+  },
+  {
+    "q": "태도(자세), 마음가짐",
+    "options": ["apt", "attitude", "aptitude", "adaptation", "adopt"],
+    "correct": "attitude"
+  }
+]
